@@ -29,11 +29,13 @@ https://cdn.jsdelivr.net/npm/dom-to-image@2.6.0/dist/dom-to-image.min.js
     </div>
 </div>
 
-<button id="btn-download">Download QR</button>
+<div style="width: 400px">
+<button id="btn-download" style="background-color: white; margin-left: auto;margin-right: auto; margin-top: 25px; display: block; padding: 10px 20px; border: 1px solid gray; border-radius: 10px; cursor: pointer">Download QR</button>
+</div>
 </div>
 <script>
         const qrcode = new QRCode(document.getElementById('qrcode'), {
-            text: "dang xuan truong",
+            text: "truongdx",
             width: 300,
             height: 300,
             colorDark : '#000',
@@ -58,5 +60,3 @@ https://cdn.jsdelivr.net/npm/dom-to-image@2.6.0/dist/dom-to-image.min.js
 
 </body>
 </html>
-
-
